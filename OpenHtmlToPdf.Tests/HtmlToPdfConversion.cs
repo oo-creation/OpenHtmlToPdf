@@ -2,7 +2,6 @@
 using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
 using OpenHtmlToPdf.Tests.Helpers;
 
 namespace OpenHtmlToPdf.Tests

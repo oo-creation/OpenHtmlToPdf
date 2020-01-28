@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netcoreapp2.1</TargetFramework>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <Compile Include="..\OpenHtmlToPdf.WkHtmlToPdf\ConversionSource.cs">
+        <Link>ConversionSource.cs</Link>
+      </Compile>
+    </ItemGroup>
+
+    <ItemGroup>
+      <EmbeddedResource Include="Assets\OpenHtmlToPdf.WkHtmlToPdf.exe" />
+    </ItemGroup>
+
+</Project>
