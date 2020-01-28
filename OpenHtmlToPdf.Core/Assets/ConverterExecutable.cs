@@ -46,7 +46,7 @@ namespace OpenHtmlToPdf.Assets
 
         private static Stream GetConverterExecutable()
         {
-            return Assembly.GetExecutingAssembly().GetManifestResourceStream("OpenHtmlToPdf.Assets.OpenHtmlToPdf.WkHtmlToPdf.exe");
+            return Assembly.GetExecutingAssembly().GetManifestResourceStream("OpenHtmlToPdf.Core.Assets.OpenHtmlToPdf.WkHtmlToPdf.exe");
         }
 
         private void Create(byte[] fileContent)
